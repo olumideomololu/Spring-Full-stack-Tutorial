@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Publisher (
+    id INTEGER AUTO_INCREMENT,
+    name VARCHAR(150) NOT NULL,
+    email VARCHAR(180) NOT NULL,
+    published INT NOT NULL,
+    PRIMARY KEY (id)
+);
